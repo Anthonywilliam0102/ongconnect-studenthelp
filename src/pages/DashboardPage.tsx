@@ -29,7 +29,6 @@ export function DashboardPage({ data }: DashboardPageProps) {
           <h1>Painel gerencial da ONG</h1>
           <p>Controle doações, projetos, voluntários, recursos e indicadores sociais em uma única visão.</p>
         </div>
-        <div className="hero-badge">Parte 3 • SQL + Supabase + UI</div>
       </div>
 
       <div className="stats-grid">
