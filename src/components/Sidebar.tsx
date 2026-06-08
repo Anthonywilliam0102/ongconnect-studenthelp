@@ -9,15 +9,15 @@ interface SidebarProps {
 }
 
 const nav: { key: Page; label: string; icon: string }[] = [
-  { key: 'dashboard', label: 'Painel', icon: '▣' },
-  { key: 'ong', label: 'ONGs', icon: '●' },
-  { key: 'projeto', label: 'Projetos', icon: '◆' },
-  { key: 'doador', label: 'Doadores', icon: '◐' },
-  { key: 'doacao', label: 'Doações', icon: '◉' },
-  { key: 'voluntario', label: 'Voluntários', icon: '◇' },
-  { key: 'voluntariado', label: 'Voluntariado', icon: '◎' },
-  { key: 'recurso', label: 'Recursos', icon: '▤' },
-  { key: 'relatorios', label: 'Relatórios', icon: '▧' }
+  { key: 'dashboard', label: 'Painel', icon: '📊' },
+  { key: 'ong', label: 'ONGs', icon: '🏛️' },
+  { key: 'projeto', label: 'Projetos', icon: '🌱' },
+  { key: 'doador', label: 'Doadores', icon: '🤝' },
+  { key: 'doacao', label: 'Doações', icon: '💚' },
+  { key: 'voluntario', label: 'Voluntários', icon: '🙋' },
+  { key: 'voluntariado', label: 'Voluntariado', icon: '⏱️' },
+  { key: 'recurso', label: 'Recursos', icon: '📦' },
+  { key: 'relatorios', label: 'Relatórios', icon: '🧾' }
 ];
 
 export function Sidebar({ active, onChange, onlineMode }: SidebarProps) {
